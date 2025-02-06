@@ -11,13 +11,13 @@ print("╚═══════════════════════�
 opcion = input("Elige una opción (1-6): ")
 opcion = int(opcion)
 
-# Obtener los números X y Y
+# Digitar numeros
 print("╔═══════════════════════════════════╗")
 x = input("Digite su número (X): ")
 y = input("Digite su número (Y): ")
 print("╚═══════════════════════════════════╝")
 
-# Convertir las entradas de X y Y a float
+# convertir x/y en numero
 x = float(x)
 y = float(y)
 
@@ -34,7 +34,7 @@ elif opcion == 4:
     else:
         resultado = "Error: División por cero"
 elif opcion == 5:
-    resultado = x ** y  # Usar ** para potencia
+    resultado = x ** y 
 elif opcion == 6:
     if x > 0 or y > 0:
         import math
