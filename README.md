@@ -20,4 +20,4 @@ R= resultado de la opcion elegida
 
 ## Diseño
 
-![diagramadefluo](diagrama.png)
+![diagramadefluo](Diagrama.png)

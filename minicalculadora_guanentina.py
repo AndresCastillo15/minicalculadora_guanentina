@@ -36,7 +36,7 @@ elif opcion == 4:
 elif opcion == 5:
     resultado = x ** y  # Usar ** para potencia
 elif opcion == 6:
-    if x > 0 and y > 0:
+    if x > 0 or y > 0:
         import math
         resultado = math.log(x, y)
     else:
